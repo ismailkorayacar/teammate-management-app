@@ -1,4 +1,4 @@
-# TypeScript Tutorial
+# Teammate Management TypeScript App
 
 Get quickly started with TypeScript by building a Teammate Management App.
 This project is built using [TypeScript and React](https://create-react-app.dev/docs/adding-typescript/)
