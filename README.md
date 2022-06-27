@@ -18,7 +18,8 @@ Start JSON Server:
 
 ### `npm run server`
 
-Run the project
+
+Run the project:
 
 ### `npm start`
 
