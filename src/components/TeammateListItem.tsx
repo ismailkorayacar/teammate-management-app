@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactTooltip from 'react-tooltip';
 
 interface TeammateListItemProps {
   teammate: Teammate;
@@ -19,7 +20,8 @@ export const TeammateListItem: React.FC<TeammateListItemProps> = ({ teammate, ed
   return (
     <li className="teammate-row">
       <label>
-        <input className="edit-input" type="text" value={inputText} onInput={(e) => onTeammateUpdate(e)} />
+        <input className="edit-input" type="text" value={inputText} onInput={(e) => onTeammateUpdate(e)} data-tip="Update" />
+        <ReactTooltip />
       </label>
     </li>
   )
